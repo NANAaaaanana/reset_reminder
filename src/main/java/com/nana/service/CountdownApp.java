@@ -24,6 +24,7 @@ public final class CountdownApp {
         importantDates.put("劳动节", LocalDate.of(2025, 5, 1));
         importantDates.put("端午节", LocalDate.of(2025, 5, 31));
         importantDates.put("国庆节", LocalDate.of(2025, 10, 1));
+        importantDates.put("阿信生日", LocalDate.of(2025, 12, 6));
 
         // 计算距离每个重要日期的剩余天数
         for (Map.Entry<String, LocalDate> entry : importantDates.entrySet()) {
